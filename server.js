@@ -15,7 +15,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cors({
   origin: [
     "http://localhost:5174",
-    "https://facerecognisation-iuqbafe9g-js-projects-0d2402bb.vercel.app/"
+    "https://facerecognisation.vercel.app/",
+    
   ],
   credentials: true,
 }));
