@@ -16,6 +16,7 @@ app.use(cors({
   origin: [
     "http://localhost:5174",
     "https://facerecognisation.vercel.app/",
+  
     
   ],
   credentials: true,
